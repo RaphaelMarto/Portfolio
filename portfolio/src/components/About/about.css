@@ -1,0 +1,43 @@
+img {
+    height: 100%;
+    width: 100%;
+  }
+  
+  .bouton {
+    flex-basis: 20%;
+    background-color: transparent;
+    display: flex;
+    max-width: 20%;
+    flex-direction: row;
+    margin: 1%;
+    border: none;
+  }
+  
+  .about-content {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+  }
+  
+  .bouttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  @media (max-width: 1200px) {
+    .bouton {
+      flex-basis: 25%; 
+      max-width: 25%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .bouton {
+      flex-basis: 40%; 
+      max-width: 40%;
+    }
+  }
+  

@@ -1,0 +1,15 @@
+.home-content{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,0.9) 100%);
+}
+
+.big{
+    font-weight: 900;
+    font-size: xxx-large;
+}

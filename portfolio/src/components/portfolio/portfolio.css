@@ -1,0 +1,72 @@
+.portfolio-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.custom-card-even {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    width: 40%;
+  }
+  
+  .custom-card-odd {
+    background-color: lightgray;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    width: 40%;
+  }
+  
+  .custom-card-even .card-body {
+    background-color: rgba(170, 170, 170, 0.534);
+  }
+  
+  .custom-card-odd .card-body {
+    background-color: rgba(170, 170, 170, 0.534);
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  h1{
+    margin:2%;
+  }
+
+  .custom-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .custom-card:hover {
+    transform: translateY(-5px);
+  }
+
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  
+  .flex-container p {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  span {
+    display: inline-block;
+  }
+  
+  .ml-auto {
+    margin-left: auto;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
