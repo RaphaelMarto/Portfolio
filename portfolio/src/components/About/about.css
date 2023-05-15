@@ -10,7 +10,7 @@ img {
     max-width: 20%;
     flex-direction: row;
     margin: 1%;
-    border: none;
+    border: transparent;
   }
   
   .about-content {

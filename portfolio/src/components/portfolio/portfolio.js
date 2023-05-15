@@ -14,7 +14,7 @@ const Portfolio = () => {
                 {
                     DTO.map((item,index)=>{
                         const className = index % 2 === 0 ? 'custom-card-even' : 'custom-card-odd';
-                        return <MyCard key={index} imageSrc={item.IMAGE} desc={item.DESC} nom={item.NOM} theme={item.THEME} done={item.TIME_DONE} valid={item.TIME_VALIDATED} className={className}/>
+                        return <MyCard key={index} imageSrc={item.IMAGE} desc={item.DESC} nom={item.NOM} theme={item.THEME} done={item.TIME_DONE} valid={item.TIME_VALIDATED} preuve={item.PREUVE} className={className}/>
                     })
                 }
                 </Container>
